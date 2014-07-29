@@ -1,0 +1,19 @@
+{
+  "name": "extroller",
+  "version": "0.1.0",
+  "description": "Express simple controller",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "q": "~1.0.1",
+    "extrender": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thierry Passeron",
+  "license": "MIT"
+}
