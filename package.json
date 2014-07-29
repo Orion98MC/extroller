@@ -7,10 +7,12 @@
     "example": "example"
   },
   "dependencies": {
-    "q": "~1.0.1",
     "extrender": "^0.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "q": "~1.0.1",
+    "atpl": "^0.7.8"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
