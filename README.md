@@ -14,8 +14,10 @@ var FooController = Controller();
 
 FooController.list = function (req, res) { res.render('foo/index'); }
 
+// Optional before action callback
 FooController.before = function (req, res, next, action) {
   res.locals.foos = this.model.all();
+  next();
 }
 
 FooController.model = Foo;
@@ -40,6 +42,7 @@ FooController.show = function (req, res) {
 FooController.before = function (req, res, next, action) {
   if (action === 'list') res.locals.foos = this.model.all();
   if (req.param('foo_id')) res.locals.foo = this.model.findById(req.param('foo_id'));
+  next();
 }
 
 FooController.model = Foo;
