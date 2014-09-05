@@ -1,13 +1,12 @@
 {
   "name": "extroller",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Express simple controller",
   "main": "index.js",
   "directories": {
     "example": "example"
   },
   "dependencies": {
-    "extrender": "^0.1.0"
   },
   "devDependencies": {
     "q": "~1.0.1",
